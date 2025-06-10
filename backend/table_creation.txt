@@ -1,0 +1,6 @@
+create table signup
+(
+Id int auto_increment primary key,
+username varchar(60) unique,
+email varchar(60),
+passwords varchar(60));
